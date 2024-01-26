@@ -7,6 +7,7 @@ The project is configured for Feature-Sliced Design architecture
 - TypeScript
 - EsLint
 - Dprint
+- i18n
 
 ## Install the dependencies
 
@@ -27,6 +28,10 @@ quasar dev
 ```bash
 quasar build
 ```
+
+### About formatter
+
+See [dprint repository](https://github.com/dprint/dprint) or [site](https://dprint.dev/)
 
 ### Customize the configuration
 
