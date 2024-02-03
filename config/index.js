@@ -1,3 +1,1 @@
-import { fsdFix } from './fsd/fsdFix'
-
-export { fsdFix }
+module.exports = { fsdFix: require('./fsd/fsdFix') }

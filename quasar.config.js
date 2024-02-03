@@ -10,7 +10,7 @@
 
 const { configure } = require('quasar/wrappers')
 
-const fsdFix = require('./config')
+const { fsdFix } = require('./config')
 
 const path = require('path')
 

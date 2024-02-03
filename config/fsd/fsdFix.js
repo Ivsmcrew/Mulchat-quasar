@@ -9,4 +9,4 @@ function fsdFix() {
   moveStoreFlagsToShared()
 }
 
-export { fsdFix }
+module.exports = fsdFix
