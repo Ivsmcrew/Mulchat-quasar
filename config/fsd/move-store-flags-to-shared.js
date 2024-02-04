@@ -28,7 +28,7 @@ function moveStoreFlagsToShared() {
         console.log(
           `${green(' App •')} ${bgGreen(black(' FSD FIX '))} ${green('•')} File ${
             lightCyan(`.${currentDir}/${name}`)
-          } was copied to ${`.${newDir}/${name}`})} (see: quasar.config.js)`,
+          } was copied to ${lightCyan(`.${newDir}/${name}`)})} (see: quasar.config.js)`,
         )
 
         fs.unlink(dts, (e) => {
