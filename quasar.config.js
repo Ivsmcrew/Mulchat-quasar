@@ -9,6 +9,9 @@
 // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js
 
 const { configure } = require('quasar/wrappers')
+
+const { fsdFix } = require('./config')
+
 const path = require('path')
 
 module.exports = configure(function(/* ctx */) {
@@ -82,7 +85,9 @@ module.exports = configure(function(/* ctx */) {
       // polyfillModulePreload: true,
       // distDir
 
-      // extendViteConf (viteConf) {},
+      extendViteConf() {
+        fsdFix()
+      },
       // viteVuePluginOptions: {},
 
       vitePlugins: [
