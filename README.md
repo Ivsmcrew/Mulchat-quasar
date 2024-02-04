@@ -36,3 +36,8 @@ See [dprint repository](https://github.com/dprint/dprint) or [site](https://dpri
 ### Customize the configuration
 
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+
+**Attention!**
+
+> The file `/src/app/store-flag.d.ts` is automatically moved to the directory `/src/shared/types/store-flag.d.ts`
+> To disable this, comment out `fsdFix()` in `quasar.config.js`
