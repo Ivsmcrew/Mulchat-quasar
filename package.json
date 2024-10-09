@@ -1,9 +1,9 @@
 {
   "name": "quasar-project",
   "version": "0.0.1",
-  "description": "The project is configured for Feature-Sliced Design architecture",
-  "productName": "Quasar App",
-  "author": "Andrey Polyakov",
+  "description": "Chat app based on Quasar",
+  "productName": "Mulchat",
+  "author": "Valeryy Kozhura",
   "private": true,
   "scripts": {
     "build": "quasar build",

@@ -1,4 +1,4 @@
-# Quasar 2 with FSD architecture (Vite)
+# Quasar 2 with FSD architecture
 
 The project is configured for Feature-Sliced Design architecture
 
